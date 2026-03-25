@@ -1,0 +1,44 @@
+//Assignment 10:
+Write a program in C to simulate a simple calculator that performs basic arithmetic operations such as addition, subtraction, 
+multiplication, and division. The calculator should also perform special operations like computing xʸ (power) and x! (factorial).
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	float a, b,sum,diff,mult,div;
+	int op;
+	//int  y,fact,n;
+	char ans;
+	//Accepting values from user
+	printf("Enter the two operands:= ");
+	scanf_s("%f""%f", &a, &b);
+	printf("\nEnter the operation to be performed on the operands (eg. add=>1, sub=>2, mul=>3, div=>4):=");
+	scanf_s("%d", &op);
+	switch (op) {
+	case 1:
+		sum = a + b;
+		printf("\nThe addition of the operands is:= %.2f", sum);
+		break;
+	case 2:
+		diff = a - b;
+		printf("\nThe subtraction of the operands is:= %.2f", diff);
+		break;
+	case 3:
+		mult = a * b;
+		printf("\nThe multiplication of the operands is:= %.2f", a * b);
+		break;
+	case 4:
+		div = a / b;
+		printf("\nThe division of the operands is:= %.2f", a / b);
+		break;
+	default:
+		printf("\nInvalid input");
+		break;
+
+	}
+	printf("\n\n");
+	//printf("\nDo you wish to find out  xʸ (power) and x! (factorial) of a number?");
+	//printf("Type 'y' for yes and 'n' for no:= ");
+	//scanf_s("%c", &ans);
+	return 0;
+}
