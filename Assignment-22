@@ -1,0 +1,117 @@
+//Assignment-22
+
+#include <stdio.h>
+#include<string.h>
+
+int main()
+{
+    char str_1[100], str_2[100], temp[100];
+    int choice, result, len, i;
+    printf("Enter first string:=");
+    scanf("%s", str_1);
+    printf("Enter second string:=");
+    scanf("%s", str_2);
+    printf("Choices:=\n1=>Length of string \n2=>Copy String \n3=>Concatenate String \n4=>Compare String \n5=>Reverse String \n");
+    
+    printf("\nEnter choice:=");
+    scanf("%d", &choice);
+    
+    switch(choice)
+    {
+        case 1:
+            len=strlen(str_1);
+            printf("Length of the string is:= %d\n", len);
+            break;
+        case 2:
+            strcpy(temp, str_1);
+            printf("Copied string:= %s\n", temp);
+            break;
+        case 3:
+            strcpy(temp, str_1);
+            strcat(temp, str_2);
+            printf("Concatenated String is:= %s", temp);
+            break;
+        case 4:
+            result=strcmp(str_1,str_2);
+            if (result==0)
+            {
+                printf("Strings are equal\n");
+            }
+            else {
+                printf("Strings are not equal\n");
+            }
+            break;
+        case 5:
+        strcpy(temp,str_1);
+        strrev(temp);
+        printf("Reversed String is:= %s",temp);
+        break;
+        
+        default:
+            printf("Invalid Choice");
+            main();
+        
+    }
+    return 0;
+}
+
+OUTPUT:
+Enter first string:=hello
+Enter second string:=world
+Choices:=
+1=>Length of string 
+2=>Copy String 
+3=>Concatenate String 
+4=>Compare String 
+5=>Reverse String 
+
+Enter choice:=1
+Length of the string is:= 5
+
+Enter first string:=hello 
+Enter second string:=world
+Choices:=
+1=>Length of string 
+2=>Copy String 
+3=>Concatenate String 
+4=>Compare String 
+5=>Reverse String 
+
+Enter choice:=2
+Copied string:= hello
+
+Enter first string:=hello 
+Enter second string:=world
+Choices:=
+1=>Length of string 
+2=>Copy String 
+3=>Concatenate String 
+4=>Compare String 
+5=>Reverse String 
+
+Enter choice:=3
+Concatenated String is:= helloworld
+
+Enter first string:=hello
+Enter second string:=world
+Choices:=
+1=>Length of string 
+2=>Copy String 
+3=>Concatenate String 
+4=>Compare String 
+5=>Reverse String 
+
+Enter choice:=4
+Strings are not equal
+
+Enter first string:=hello
+Enter second string:=hello
+Choices:=
+1=>Length of string 
+2=>Copy String 
+3=>Concatenate String 
+4=>Compare String 
+5=>Reverse String 
+
+Enter choice:=4
+Strings are equal
