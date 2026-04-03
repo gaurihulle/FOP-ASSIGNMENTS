@@ -1,0 +1,52 @@
+//Assignment 6:
+
+#include<stdio.h>
+
+long long fact_iterative(int n)
+{
+    if(n<0) 
+        return -1;
+    long long fact=1;
+    for(int i=1;i<=n;i++)
+    {
+        fact=fact*i;
+    }
+
+    return fact;
+}
+
+long long fact_w_recursion(int n)
+{
+    if(n<0)
+        return -1;
+    if(n==0|| n==1)
+        return 1;
+    return n* fact_w_recursion(n-1);
+}
+
+int main()
+{
+    int num;
+    long long result_1, result_2;
+    printf("Enter a non negative number:=");
+    scanf("%d", &num);
+    
+    if (num<0)
+    {
+        printf("Error: Factorial not defined for negative numbers:=");
+        return 0;
+    }
+    result_1=fact_iterative(num);
+    result_2=fact_w_recursion(num);
+    
+    printf("\nFactorial using iterative:= %lld", result_1);
+    printf("\nFactorial using recursion:= %lld", result_2);
+    
+    return 0;
+}
+
+OUTPUT:
+Enter a non negative number:=4
+
+Factorial using iterative:= 24
+Factorial using recursion:= 24
