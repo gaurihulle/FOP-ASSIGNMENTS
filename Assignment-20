@@ -1,0 +1,40 @@
+//Assignment-20
+
+#include<stdio.h>
+
+//Call by value
+void swap(int a, int b)
+{
+  int temp;
+  temp=a;
+  a=b;
+  b=temp;
+}
+
+//Call by reference
+void swap_reference(int *a, int *b)
+{
+  int temp;
+  temp=*a;
+  *a=*b;
+  *b= temp;
+}
+
+//main
+int main()
+{
+  int x=10, y=2;
+  printf("\n Numbers before swapping:= %d, %d", x, y);
+ 
+  swap(x,y);
+  printf("\n Numbers after swapping using call by value:= %d, %d", x, y);
+  
+  swap_reference(&x, &y);
+  printf("\n Numbers after swapping using call by reference (using pointers):= %d, %d", x, y);
+  return 0; 
+}
+
+//OUTPUT:
+Numbers before swapping:= 10, 2
+Numbers after swapping using call by value:= 10, 2
+Numbers after swapping using call by reference (using pointers):= 2, 10
