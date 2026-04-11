@@ -1,6 +1,6 @@
-//Assignment 9:
+/*Assignment 9:
 To check whether the input number is Armstrong number or not.An Armstrong number is an integer with three digits such that the sum 
-of the cubes of its digits is equal to the number itself.
+of the cubes of its digits is equal to the number itself.*/
 
 
 #include<stdio.h>
@@ -26,9 +26,9 @@ int main()
 	return 0;
 	
 }
-*OUTPUT:
+/*OUTPUT:
 Enter the number to be checked:=153
 153 is an Armstrong number
 
 Enter the number to be checked:=247
-247 is NOT an Armstrong number
+247 is NOT an Armstrong number*/
