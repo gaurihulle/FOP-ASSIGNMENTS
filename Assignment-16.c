@@ -1,5 +1,5 @@
-//Assignment 16:
-To accept list of N integers and partition list into two sub lists even and odd numbers.
+/*Assignment 16:
+To accept list of N integers and partition list into two sub lists even and odd numbers.*/
 
 #include<stdio.h>
 int main()
@@ -54,7 +54,7 @@ int main()
     }
 }
 
-OUTPUT:
+/*OUTPUT:
 Enter the number of integers in the array:=10
 
 Enter 10 integers:=1 2 3 45 67 80 34 5 64 12 
@@ -63,4 +63,4 @@ Printing array:=1 2 3 45 67 80 34 5 64 12
  
 Even number array:=2 80 34 64 12 
 
-Odd number array:=1 3 45 67 5 
+Odd number array:=1 3 45 67 5*/
