@@ -1,0 +1,34 @@
+//Assignment 3:
+Write a program in C to generate multiplication tables.*/
+
+#include<stdio.h>
+int main()
+{
+    int num,i;
+    printf("Enter a number to generate its multiplication table:=");
+    scanf("%d", &num);
+    
+    printf("\nMultiplication table of %d is:=\n", num);
+    //generating multiplication table:
+    for(i=0; i<=10; i++)
+    {
+        printf("%d X %d= %d \n", num,i,num*i);
+    }
+}
+
+OUTPUT:
+Enter a number to generate its multiplication table:=4
+
+Multiplication table of 4 is:=
+4 X 0= 0 
+4 X 1= 4 
+4 X 2= 8 
+4 X 3= 12 
+4 X 4= 16 
+4 X 5= 20 
+4 X 6= 24 
+4 X 7= 28 
+4 X 8= 32 
+4 X 9= 36 
+4 X 10= 40 
+
