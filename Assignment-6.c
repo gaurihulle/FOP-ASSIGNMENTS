@@ -1,5 +1,5 @@
-//Assignment 6:
-Write a C function to compute the factorial of a number with and without recursion.
+/*Assignment 6:
+Write a C function to compute the factorial of a number with and without recursion.*/
 
 #include<stdio.h>
 
@@ -46,8 +46,8 @@ int main()
     return 0;
 }
 
-OUTPUT:
+/*OUTPUT:
 Enter a non negative number:=4
 
 Factorial using iterative:= 24
-Factorial using recursion:= 24
+Factorial using recursion:= 24*/
