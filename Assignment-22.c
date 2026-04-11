@@ -1,5 +1,5 @@
-//Assignment-22:
-Write a menu driven program in C to perform all string operations. (In built functions).
+/*Assignment-22:
+Write a menu driven program in C to perform all string operations. (In built functions).*/
 
 #include <stdio.h>
 #include<string.h>
@@ -56,7 +56,7 @@ int main()
     return 0;
 }
 
-OUTPUT:
+/*OUTPUT:
 Enter first string:=hello
 Enter second string:=world
 Choices:=
@@ -115,4 +115,4 @@ Choices:=
 5=>Reverse String 
 
 Enter choice:=4
-Strings are equal
+Strings are equal*/
