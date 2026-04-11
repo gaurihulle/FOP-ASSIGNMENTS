@@ -1,5 +1,5 @@
-//Assignment-7:
-Write a C program to accept student details and display their result using an array of structures.
+/*Assignment-7:
+Write a C program to accept student details and display their result using an array of structures.*/
 
 #include <stdio.h>
 #include<string.h>
@@ -55,7 +55,7 @@ int main()
     return 0;
 }
 
-OUTPUT:
+/*OUTPUT:
 Enter number of students:=2
 
 Enter student details:=
@@ -81,4 +81,4 @@ Student [2] :-
 Roll no: 456
 Name: b
 Marks in 3 subjects:90.00, 99.00, 98.00, 
-Percentage:= 95.67
+Percentage:= 95.67*/
