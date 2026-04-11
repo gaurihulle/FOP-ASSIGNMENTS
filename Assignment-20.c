@@ -1,5 +1,5 @@
-//Assignment 20:
-Write a C function to swap two numbers with and without pointers.
+/*Assignment 20:
+Write a C function to swap two numbers with and without pointers.*/
 
 #include<stdio.h>
 
@@ -35,7 +35,7 @@ int main()
   return 0; 
 }
 
-//OUTPUT:
+/*OUTPUT:
 Numbers before swapping:= 10, 2
 Numbers after swapping using call by value:= 10, 2
-Numbers after swapping using call by reference (using pointers):= 2, 10
+Numbers after swapping using call by reference (using pointers):= 2, 10*/
