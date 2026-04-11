@@ -1,6 +1,6 @@
-Assignment 10:
+/*Assignment 10:
 Write a program in C to simulate a simple calculator that performs basic arithmetic operations such as addition, subtraction, 
-multiplication, and division. The calculator should also perform special operations like computing xʸ (power) and x! (factorial).
+multiplication, and division. The calculator should also perform special operations like computing xʸ (power) and x! (factorial).*/
 
 int main()
 {
@@ -77,7 +77,7 @@ int main()
     return 0;
 }
 
-OUTPUT:
+/*OUTPUT:
 --- Simple Calculator ---
 1. Addition
 2. Subtraction
@@ -95,4 +95,4 @@ OUTPUT:
  Enter your choice: 6
 
  Enter a number:=5
- Result = 120
+ Result = 1208*/
