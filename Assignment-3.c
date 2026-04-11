@@ -1,4 +1,4 @@
-//Assignment 3:
+/*Assignment 3:
 Write a program in C to generate multiplication tables.*/
 
 #include<stdio.h>
@@ -16,7 +16,7 @@ int main()
     }
 }
 
-OUTPUT:
+/*OUTPUT:
 Enter a number to generate its multiplication table:=4
 
 Multiplication table of 4 is:=
@@ -30,5 +30,5 @@ Multiplication table of 4 is:=
 4 X 7= 28 
 4 X 8= 32 
 4 X 9= 36 
-4 X 10= 40 
+4 X 10= 40*/
 
