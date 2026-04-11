@@ -1,5 +1,5 @@
-//Assignment 11:
-To accept the number and Compute a) square root of number, b) Square of number, c) Cube of number d) check for prime, d) factorial of number e) prime factors.
+/*Assignment 11:
+To accept the number and Compute a) square root of number, b) Square of number, c) Cube of number d) check for prime, d) factorial of number e) prime factors.*/
 
 
 #include<stdio.h>
@@ -94,7 +94,7 @@ int main()
     
 }
 
-OUTPUT:
+/*OUTPUT:
 Enter a number:=5
 
  List of operations:=
@@ -119,4 +119,4 @@ Enter a number:=6
 6=> Prime Factors
 
  Enter your choice:=4
-6 is not a Prime number
+6 is not a Prime number*/
