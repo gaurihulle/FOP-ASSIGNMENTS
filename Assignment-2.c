@@ -1,5 +1,5 @@
-//Assignment 2:
-Write a menu driven program in C to implement the basic arithmetic operations.
+/*Assignment 2:
+Write a menu driven program in C to implement the basic arithmetic operations.*/
 
 #include<stdio.h>
 #include<math.h>
@@ -41,12 +41,12 @@ int main()
 	return 0;
 }
 
-OUTPUT:
+/*OUTPUT:
 Enter the two operands:= 12 13
 
 Enter the operation to be performed on the operands: 
  (eg. add=>1, sub=>2, mul=>3, div=>4):=3
 
-The multiplication of the operands is:= 156.00
+The multiplication of the operands is:= 156.00*/
 
 
