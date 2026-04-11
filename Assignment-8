@@ -3,6 +3,8 @@ To accept a student's five course marks and compute his/her result. Student is p
 and above 40 in each course. If student scores aggregate greater than 75%, then the grade is distinguished.
 If aggregate is 60>= and <75 then the grade of first division. If aggregate is 50>= and <60, then the grade is second division. 
 If aggregate is 40>= and <50, then the grade is third division.
+
+
 #include<stdio.h>
 int main()
 {
