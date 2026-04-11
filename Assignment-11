@@ -1,4 +1,6 @@
 //Assignment 11:
+To accept the number and Compute a) square root of number, b) Square of number, c) Cube of number d) check for prime, d) factorial of number e) prime factors.
+
 
 #include<stdio.h>
 #include<math.h>
