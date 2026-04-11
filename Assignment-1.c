@@ -1,5 +1,5 @@
-//Assignment 1:
-To check if a year is a leap year or not.
+/*Assignment 1:
+To check if a year is a leap year or not.*/
 
 
 #include<stdio.h>
@@ -26,9 +26,11 @@ int main()
 	printf("\n\n");
 	return 0;
 };
-*OUTPUT:
+
+
+/*OUTPUT:
 Enter the year to checked:=2024
 2024 is a leap year
 
 Enter the year to checked:=2021
-2021 is 'not' a leap year
+2021 is 'not' a leap year*/
