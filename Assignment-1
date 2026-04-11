@@ -1,4 +1,7 @@
-//WACP to check if a year is a leap year or not.
+//Assignment 1:
+To check if a year is a leap year or not.
+
+
 #include<stdio.h>
 int main()
 {
