@@ -1,5 +1,5 @@
-//Assignment 5:
-To perform operations on two matrices.
+/*Assignment 5:
+To perform operations on two matrices.*/
 
 #include<stdio.h>
 int main()
@@ -117,7 +117,9 @@ int main()
 	printf("\n");
 	return 0;
 }
-*OUTPUT:
+
+
+/*OUTPUT:
 Enter the order of the matrix:= 2
 
 Enter the elements of matrix A:= 1 2 3 4
@@ -136,4 +138,4 @@ Elements of Matrix B:= [ 5 6 7 8 ]
 
 4.Addition of MatrixA and MatrixB:= [ 6 8 10 12 ]
 
-5.Subtraction of MatrixA and MatrixB:= [ 4 4 4 4 ]
+5.Subtraction of MatrixA and MatrixB:= [ 4 4 4 4 ]*/
