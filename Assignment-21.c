@@ -1,5 +1,5 @@
-Assignment-21:
-Write a C program to copy contents of one file to another using File handling.
+/*Assignment-21:
+Write a C program to copy contents of one file to another using File handling.*/
 
 #include<stdio.h>
 
